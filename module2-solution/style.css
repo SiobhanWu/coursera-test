@@ -1,44 +1,31 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Assignment Solution for Module 2</title>
-		<link rel="stylesheet" href="style.css">
 <style>
 
-*{font-family: chalkboard, Arial,Sans-serif; color: black; font-size: 15px; box-sizing: border-box;}
-
-			p{background-color: #bfbfbf;
+*{font-family: chalkboard, Arial,Sans-serif; color: black; font-size: 15px; }
+	.container{background-color: #bfbfbf;
 				font-size: 1em;
-				width: auto;
-				font-weight: 400;
-				margin: 0;
-				clear: right;}
-			.h{font-size: 1.5em;
-				font-weight: bold;
-				text-align: center; 
-				width: 100px;
-				margin: 0;
-				border-bottom: 2.5px solid black;
-				border-left: 2.5px solid black;
-				float: right;
-				margin-bottom: 10px;}
-
-			#h2{background: #D59898;}
-			#h3{color: white;background: #C14543;}
-			#h4{background: #E5D198;}
-			h1{font-size: 2em;text-align: center;font-weight: bold;}
-
-			.container{background-color: #bfbfbf;
-				font-size: 1em;
-				width: auto;
 				font-weight: 400;
 				border: 2.5px solid black;
 				margin: 10px;
 				overflow: hidden;
-				position: relative;
+				box-sizing: border-box;
 			}
+	.h{font-size: 1.5em;
+				font-weight: bold;
+				text-align: center; 
+				width: 100px;
+				margin: 0;
+				position: relative;
+				float: right;
+				border-bottom: 2.5px solid black;
+				border-left: 2.5px solid black;
+			}
+	p{	padding: 10px;			
+		margin: 0;
+		clear: right;}
+			#h2{background: #D59898;}
+			#h3{color: white;background: #C14543;}
+			#h4{background: #E5D198;}
+			h1{font-size: 2em;text-align: center;font-weight: bold;}
 
 
 .row {width: 100%;}
@@ -86,8 +73,8 @@
 		    width: 100%;
   }
   /********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+@media (min-width: 768px) and (max-width: 991px) 
+{  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
   .col-md-1 {
@@ -171,22 +158,3 @@
 	 }
 
 </style>
-	</head>
-	<body>
-		<h1>Our Menu</h1>
-		<div class="row">
-			<div class="container col-lg-4 col-md-6 col-sm-12">
-			<h2 class="h" id="h2">Chicken</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</div>
-			<div class="container col-lg-4 col-md-6 col-sm-12">
-			<h3 class="h" id="h3">Beef</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</div>
-			<div class="container col-lg-4 col-md-12 col-sm-12">
-				<h4 class="h" id="h4">Sushi</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-		</div>
-	</body>
-</html>
